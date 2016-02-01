@@ -9,4 +9,4 @@ Optional User Stories:
   * [x] Photo status actually pulls up camera roll
   
   
-![alt tag](https://github.com/reversetype/Assignment1-Dropbox/blob/master/Walkthrough.gif)
+![alt tag](https://github.com/b00y0h/facebook-proto/blob/master/facebookDemo.gif)
