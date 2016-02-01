@@ -12,6 +12,14 @@
 		201AB4EE1C5AD2AE00797C6E /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 201AB4EC1C5AD2AE00797C6E /* Main.storyboard */; };
 		201AB4F01C5AD2AE00797C6E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 201AB4EF1C5AD2AE00797C6E /* Assets.xcassets */; };
 		201AB4F31C5AD2AE00797C6E /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 201AB4F11C5AD2AE00797C6E /* LaunchScreen.storyboard */; };
+		203CD9D11C5FAE97003EE64E /* RequestsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 203CD9D01C5FAE97003EE64E /* RequestsViewController.swift */; };
+		203CD9D31C5FBBAC003EE64E /* UpdateStatusViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 203CD9D21C5FBBAC003EE64E /* UpdateStatusViewController.swift */; };
+		203CD9D71C5FC150003EE64E /* CheckInViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 203CD9D61C5FC150003EE64E /* CheckInViewController.swift */; };
+		20AE78121C5BC8A000101ACD /* FeedViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 20AE78111C5BC8A000101ACD /* FeedViewController.swift */; };
+		20AE78141C5BD03A00101ACD /* FeedDetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 20AE78131C5BD03A00101ACD /* FeedDetailViewController.swift */; };
+		20AE78161C5BF0D200101ACD /* MessagesViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 20AE78151C5BF0D200101ACD /* MessagesViewController.swift */; };
+		20AE78181C5BF11400101ACD /* NotificationsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 20AE78171C5BF11400101ACD /* NotificationsViewController.swift */; };
+		20AE781A1C5BF16000101ACD /* SettingsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 20AE78191C5BF16000101ACD /* SettingsViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +30,14 @@
 		201AB4EF1C5AD2AE00797C6E /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		201AB4F21C5AD2AE00797C6E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		201AB4F41C5AD2AE00797C6E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		203CD9D01C5FAE97003EE64E /* RequestsViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RequestsViewController.swift; sourceTree = "<group>"; };
+		203CD9D21C5FBBAC003EE64E /* UpdateStatusViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UpdateStatusViewController.swift; sourceTree = "<group>"; };
+		203CD9D61C5FC150003EE64E /* CheckInViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CheckInViewController.swift; sourceTree = "<group>"; };
+		20AE78111C5BC8A000101ACD /* FeedViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FeedViewController.swift; sourceTree = "<group>"; };
+		20AE78131C5BD03A00101ACD /* FeedDetailViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FeedDetailViewController.swift; sourceTree = "<group>"; };
+		20AE78151C5BF0D200101ACD /* MessagesViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MessagesViewController.swift; sourceTree = "<group>"; };
+		20AE78171C5BF11400101ACD /* NotificationsViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NotificationsViewController.swift; sourceTree = "<group>"; };
+		20AE78191C5BF16000101ACD /* SettingsViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SettingsViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -57,6 +73,14 @@
 				201AB4E81C5AD2AE00797C6E /* AppDelegate.swift */,
 				201AB4EA1C5AD2AE00797C6E /* ViewController.swift */,
 				201AB4EC1C5AD2AE00797C6E /* Main.storyboard */,
+				203CD9D61C5FC150003EE64E /* CheckInViewController.swift */,
+				203CD9D21C5FBBAC003EE64E /* UpdateStatusViewController.swift */,
+				203CD9D01C5FAE97003EE64E /* RequestsViewController.swift */,
+				20AE78191C5BF16000101ACD /* SettingsViewController.swift */,
+				20AE78171C5BF11400101ACD /* NotificationsViewController.swift */,
+				20AE78151C5BF0D200101ACD /* MessagesViewController.swift */,
+				20AE78131C5BD03A00101ACD /* FeedDetailViewController.swift */,
+				20AE78111C5BC8A000101ACD /* FeedViewController.swift */,
 				201AB4EF1C5AD2AE00797C6E /* Assets.xcassets */,
 				201AB4F11C5AD2AE00797C6E /* LaunchScreen.storyboard */,
 				201AB4F41C5AD2AE00797C6E /* Info.plist */,
@@ -135,8 +159,16 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				20AE78161C5BF0D200101ACD /* MessagesViewController.swift in Sources */,
 				201AB4EB1C5AD2AE00797C6E /* ViewController.swift in Sources */,
+				203CD9D11C5FAE97003EE64E /* RequestsViewController.swift in Sources */,
+				20AE781A1C5BF16000101ACD /* SettingsViewController.swift in Sources */,
+				20AE78121C5BC8A000101ACD /* FeedViewController.swift in Sources */,
+				203CD9D31C5FBBAC003EE64E /* UpdateStatusViewController.swift in Sources */,
+				20AE78181C5BF11400101ACD /* NotificationsViewController.swift in Sources */,
 				201AB4E91C5AD2AE00797C6E /* AppDelegate.swift in Sources */,
+				20AE78141C5BD03A00101ACD /* FeedDetailViewController.swift in Sources */,
+				203CD9D71C5FC150003EE64E /* CheckInViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -284,6 +316,7 @@
 				201AB4F91C5AD2AE00797C6E /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
